@@ -21,6 +21,7 @@ function preload(){
 function setup(){
   
 //create the canvas and adjust the window sizes to suit the device 
+createCanvas(windowWidth,windowHeight);
 
 path=createSprite(width/2,200);
 path.addImage(pathImg);
